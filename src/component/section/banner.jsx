@@ -1,7 +1,7 @@
 import { Component } from "react";
 
-const title = "Join Our Kingdom business forum community";
-const desc = "This is a large community forum that connects business and the kingdom of God.";
+const title = "Join Our Kingdom driven community";
+const desc = "This is a large community forum that connects Kingdom minded businesses.";
 
 const labelchangeone = "I am a";
 const labelchangetwo = "Looking for";
@@ -10,7 +10,7 @@ const labelchangefour = "Country";
 const btnText = "Find Your Partner";
 
 
-const imgLink = "assets/images/banner/01.png";
+const imgLink = "assets/images/banner/business.png";
 const imgAlt = "Dating Thumb";
 
 class BannerOne extends Component {
@@ -33,14 +33,14 @@ class BannerOne extends Component {
                                                 <div className="col-6">
                                                     <label className="banner__inputlist" htmlFor="male">
                                                         <input type="radio" id="male" name="me" className="male" defaultChecked />
-                                                        <span>Male</span>
+                                                        <span>Business owner</span>
                                                         <span className="banner__inputlist--icon"><i className="fa-solid fa-mars"></i></span>
                                                     </label>
                                                 </div>
                                                 <div className="col-6">
                                                     <label className="banner__inputlist" htmlFor="female">
                                                         <input type="radio" id="female" name="me" className="female" />
-                                                        <span>Female</span>
+                                                        <span>Leader</span>
                                                         <span className="banner__inputlist--icon"><i className="fa-solid fa-venus"></i></span>
                                                     </label>
                                                 </div>
@@ -392,7 +392,7 @@ class BannerOne extends Component {
                         </div>
                         <div className="col-lg-6 col-12">
                             <div className="banner__thumb banner__thumb--thumb1 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
-                                <img src={imgLink} alt={imgAlt} />
+                                <img src={imgLink} alt={imgAlt} height= "auto" width= "780px"/>
                             </div>
                         </div>
                     </div>

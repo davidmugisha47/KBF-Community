@@ -1,8 +1,8 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../component/layout/footer";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
+import HeaderOne from "../component/layout/header";
 
 
 let ShopCartList = [
@@ -57,7 +57,7 @@ class ShopCart extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Shop Cart Page'} curPage={'Shop Cart'} />
                 <div className="shop-cart padding-top padding-bottom">
                     <div className="container">

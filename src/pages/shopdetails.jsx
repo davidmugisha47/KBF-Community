@@ -10,7 +10,7 @@ import SearchBar from "../component/sidebar/search";
 import Categorie from "../component/sidebar/categorie";
 import RecentProduct from "../component/sidebar/recent-product";
 import FooterThree from "../component/layout/footerthree";
-import HeaderTwo from "../component/layout/headertwo";
+import HeaderOne from "../component/layout/header";
 
 
 const title = "The Title here";
@@ -96,7 +96,7 @@ class ShopDetails extends Component {
     render() {
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Our Shop Single'} curPage={'Shop Details'} />
                 <div className="shop-single padding-top padding-bottom aside-bg">
                     <div className="container">

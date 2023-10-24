@@ -14,8 +14,6 @@ import ErrorPage from "./pages/errorpage";
 import GroupPage from "./pages/group";
 import GroupDetails from "./pages/groupsingle";
 import HomePage from "./pages/home";
-import HomePageThree from "./pages/homethree";
-import HomePageTwo from "./pages/hometwo";
 import LogIn from "./pages/login";
 import MemberDetails from "./pages/member-single";
 import MembersPage from "./pages/members";
@@ -33,8 +31,6 @@ function App() {
 				<ScrollToTop />
 				<Routes>
 					<Route path="/" element={<HomePage />} />
-					<Route path="index-2" element={<HomePageTwo />} />
-					<Route path="index-3" element={<HomePageThree />} />
 					<Route path="about" element={<AboutPage />} />
 					<Route path="membership" element={<MembershipPage />} />
 					<Route path="comingsoon" element={<ComingSoonPage />} />

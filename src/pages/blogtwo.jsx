@@ -13,7 +13,7 @@ import CategorieTwo from "../component/sidebar/categorietwo";
 import Instagram from "../component/sidebar/instagram";
 import Archive from "../component/sidebar/archive";
 import Tags from "../component/sidebar/tags";
-import HeaderTwo from "../component/layout/headertwo";
+import HeaderOne from "../component/layout/header";
 
 let BlogPost = [
     {
@@ -71,7 +71,7 @@ class BlogPageTwo extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Our Blog Post'} curPage={'Blog'} />
                 <div className="blog blog--style2 padding-top padding-bottom">
                     <div className="container">

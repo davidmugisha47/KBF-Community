@@ -1,8 +1,8 @@
 import { Component, Fragment } from "react";
 import FooterThree from "../component/layout/footerthree";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
 import GoogleMap from "../component/section/googlemap";
+import HeaderOne from "../component/layout/header";
 
 
 const infotitle = "Contact Info";
@@ -47,7 +47,7 @@ class ContactUs extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'CONTACT US'} curPage={'CONTACT'} />
                 <div className="info-section padding-top padding-bottom">
                     <div className="container">
