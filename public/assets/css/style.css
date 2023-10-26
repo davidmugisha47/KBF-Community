@@ -2067,6 +2067,7 @@ iframe {
 .banner__content .btn-group a {
   padding-inline: 30px;
 }
+
 .banner__content select {
   background: #fff;
 }
@@ -3999,6 +4000,7 @@ a[class*=lightcase-icon-] {
 .group__bottom--allmedia .default-btn span {
   color: #fff;
 }
+
 .group__bottom--activity {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
