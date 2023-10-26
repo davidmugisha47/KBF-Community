@@ -7,7 +7,6 @@ import BannerOne from "../component/section/banner";
 import MeetSection from "../component/section/meet";
 import MemberSection from "../component/section/member";
 import StorySection from "../component/section/story";
-import WorkSection from "../component/section/work";
 import WorkSectionTwo from "../component/section/worktwo";
 
 class HomePage extends Component {
@@ -17,7 +16,6 @@ class HomePage extends Component {
                 <HeaderOne />
                 <BannerOne />
                 <AboutSection />
-                <WorkSection />
                 <MemberSection />
                 <StorySection />
                 <MeetSection />

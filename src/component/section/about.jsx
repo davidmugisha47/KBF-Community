@@ -1,32 +1,32 @@
 import { Component } from "react";
 
-const title = "Ollya Super Powers";
-const subtitle = "Our dating platform is like a breath of fresh air. Clean and trendy design with ready to use features we are sure you will love.";
+const title = "Our mission";
+const subtitle = "Providing a platform for you to connect with like-minded businesses and leaders who share a common mission: to collaborate and advance God's kingdom on earth.";
 
 let AboutContentList = [
     {
-        imgUrl: 'assets/images/about/01.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Simple To Use',
-        desc: 'Simple steps to follow to have a matching connection.',
+        imgUrl: 'https://cdn-icons-png.flaticon.com/128/4207/4207230.png',
+        imgAlt: 'Networking',
+        title: 'Networking',
+        desc: 'A network to businesses and leaders from multiple countries.',
     },
     {
-        imgUrl: 'assets/images/about/02.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Smart Matching',
-        desc: 'Create connections with users that are like you.',
+        imgUrl: 'https://cdn-icons-png.flaticon.com/128/2058/2058768.png',
+        imgAlt: 'Support',
+        title: 'Support',
+        desc: 'Joining hands with other businesses across the globe.',
     },
     {
-        imgUrl: 'assets/images/about/03.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Filter Very Fast',
+        imgUrl: 'https://cdn-icons-png.flaticon.com/128/1491/1491165.png',
+        imgAlt: 'Thinking',
+        title: 'Idea developmet',
         desc: 'Don’t waste your time! Find only what you are interested.',
     },
     {
-        imgUrl: 'assets/images/about/04.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Cool Community',
-        desc: 'BuddyPress network is full of cool members.',
+        imgUrl: 'https://cdn-icons-png.flaticon.com/128/1694/1694262.png',
+        imgAlt: 'Thumb',
+        title: 'Common goal',
+        desc: 'All the members of the KBF all work together for a common goal.',
     },
 ]
 

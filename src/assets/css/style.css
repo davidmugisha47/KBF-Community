@@ -1817,7 +1817,7 @@ iframe {
   background: #2ba6cb;
 }
 .header__more .default-btn {
-  background: #f24570;
+  background: rgb(69, 69, 255);
   color: #fff;
   padding: 15px 20px;
   letter-spacing: 0.85px;
