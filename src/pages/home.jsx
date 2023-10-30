@@ -19,7 +19,7 @@ class HomePage extends Component {
                 <MemberSection />
                 <StorySection />
                 {/* <MeetSection /> */}
-                <WorkSectionTwo />
+                {/* <WorkSectionTwo /> */}
                 <AppSection />
                 <Footer />
             </Fragment>

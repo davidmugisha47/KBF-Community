@@ -6,10 +6,6 @@ import { Link } from "react-router-dom";
 const title = "Kingdom Business Forum Africa";
 const desc = "A large community forum that connects Kingdom minded businesses, leaders and pastors across the globe.";
 
-// const labelchangeone = "I am a";
-// const labelchangetwo = "Looking for";
-// const labelchangethree = "Age";
-// const labelchangefour = "Country";
 const btnText = "Register";
 
 const imgLink = "assets/images/banner/business.png";

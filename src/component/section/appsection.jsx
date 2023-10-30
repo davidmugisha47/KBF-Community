@@ -1,8 +1,8 @@
 import { Component } from "react";
 
 const subtitle = "Easy Connect To Everyone";
-const title = "Download App Our Ollya";
-const desc = "You find us, finally and you are already in love. More than 5.000.000 around the world already shared the same experience andng ares uses our system Joining us today just got easier!";
+const title = "KBF app comming soon!";
+const desc = "Join us in this transformative journey. The Kingdom Business Forum app is coming soon, and we can't wait for you to be a part of it. Together, we'll shape a better tomorrow.";
 
 
 
@@ -46,7 +46,7 @@ class AppSection extends Component {
                             <div className="app__item">
                                 <div className="app__inner">
                                     <div className="app__thumb">
-                                        <img src="assets/images/app/01.png" alt="dating thumb" />
+                                        <img src="phone.png" alt="dating thumb" />
                                     </div>
                                 </div>
                             </div>
