@@ -32,8 +32,6 @@ class HeaderOne extends Component {
                                             <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Pages</a>
                                             <ul className="dropdown-menu">
                                                 <li><NavLink to="/about">About Us</NavLink></li>
-                                                <li><NavLink to="/membership">Membership</NavLink></li>
-                                                <li><NavLink to="/comingsoon">comingsoon</NavLink></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
