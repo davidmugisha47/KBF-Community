@@ -2,7 +2,7 @@ import { Component } from "react";
 import { Link } from "react-router-dom";
 
 const title = "Events";
-const desc = "The Kingdom Forum is a cross-border event held in three countries: Zambia, Kenya, and Rwanda.";
+const desc = "The Kingdom Forum is a truly extraordinary cross-border event that unites and transcends national boundaries, making a profound impact in three diverse and dynamic countries: Zambia, Kenya, and Rwanda.";
 
 let StorySectionContentList = [
     {

@@ -2,7 +2,7 @@ import { Component, useState } from "react";
 import { Link } from "react-router-dom";
 
 const title = "Our leaders";
-const desc = "Here are the present leaders of the Kingdom Business Forum.";
+const desc = "Presently, these distinguished individuals hold the esteemed positions of leadership within the Kingdom Business Forum.";
 
 let MemberDataList = [
     {

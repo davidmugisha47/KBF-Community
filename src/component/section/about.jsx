@@ -8,25 +8,25 @@ let AboutContentList = [
         imgUrl: 'https://cdn-icons-png.flaticon.com/128/4207/4207230.png',
         imgAlt: 'Networking',
         title: 'Networking',
-        desc: 'A network to businesses and leaders from multiple countries.',
+        desc: 'Connecting Businesses and Leaders Across Borders.',
     },
     {
         imgUrl: 'https://cdn-icons-png.flaticon.com/128/2058/2058768.png',
         imgAlt: 'Support',
         title: 'Support',
-        desc: 'Joining hands with other businesses across the globe.',
+        desc: 'Uniting with global businesses and leaders.',
     },
     {
         imgUrl: 'https://cdn-icons-png.flaticon.com/128/1491/1491165.png',
         imgAlt: 'Thinking',
-        title: 'Idea developmet',
-        desc: 'Don’t waste your time! Find only what you are interested.',
+        title: 'Idea development',
+        desc: 'Leveraging our network of achievers to nurture your ideas.',
     },
     {
         imgUrl: 'https://cdn-icons-png.flaticon.com/128/1694/1694262.png',
         imgAlt: 'Thumb',
         title: 'Common goal',
-        desc: 'All the members of the KBF all work together for a common goal.',
+        desc: 'KBF members unite for a shared purpose.',
     },
 ]
 
