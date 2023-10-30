@@ -1,11 +1,7 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
-import FooterThree from "../component/layout/footerthree";
 import PageHeader from "../component/layout/pageheader";
 import Pagination from "../component/section/pagination";
-import SelectAge from "../component/select/selectage";
-import SelectCountry from "../component/select/selectcountry";
-import SelectGender from "../component/select/selectgender";
 import HeaderOne from "../component/layout/header";
 import Footer from "../component/layout/footer";
 
