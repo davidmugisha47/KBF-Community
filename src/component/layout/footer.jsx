@@ -42,10 +42,6 @@ let InfoList = [
         pageLink: '/contact',
     },
     {
-        pageName: 'Customer Reviews',
-        pageLink: '#',
-    },
-    {
         pageName: 'Success Stories',
         pageLink: '#',
     },
@@ -72,10 +68,6 @@ let InfoListTwo = [
         pageName: 'Safety and Security',
         pageLink: '#',
     },
-    {
-        pageName: 'Membership Level',
-        pageLink: '#',
-    },
 ]
 
 let InfoListThree = [
@@ -85,14 +77,6 @@ let InfoListThree = [
     },
     {
         pageName: 'FAQ',
-        pageLink: '#',
-    },
-    {
-        pageName: 'Quick Start Guide',
-        pageLink: '#',
-    },
-    {
-        pageName: 'Tutorials',
         pageLink: '#',
     },
     {
@@ -108,10 +92,6 @@ let InfoListFour = [
     },
     {
         pageName: 'End User Agreements',
-        pageLink: '#',
-    },
-    {
-        pageName: 'Refund Policy',
         pageLink: '#',
     },
     {
@@ -259,7 +239,7 @@ class Footer extends Component {
                 <div className="footer__bottom wow fadeInUp" data-wow-duration="1.5s">
                     <div className="container">
                         <div className="footer__content text-center">
-                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> Ollya </Link> || Design By: CodexCoder</p>
+                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> KBF 2023 </Link></p>
                         </div>
                     </div>
                 </div>

@@ -1,12 +1,12 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import FooterThree from "../component/layout/footerthree";
-import HeaderThree from "../component/layout/headerthree";
 import PageHeader from "../component/layout/pageheader";
 import Pagination from "../component/section/pagination";
 import SelectAge from "../component/select/selectage";
 import SelectCountry from "../component/select/selectcountry";
 import SelectGender from "../component/select/selectgender";
+import HeaderOne from "../component/layout/header";
 
 
 let StorySectionContentList = [
@@ -110,7 +110,7 @@ class CommunityPage extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderThree />
+                <HeaderOne />
                 <PageHeader title={'Community Page'} curPage={'Community'} />
                 <div className="community story padding-top padding-bottom">
                     <div className="container">

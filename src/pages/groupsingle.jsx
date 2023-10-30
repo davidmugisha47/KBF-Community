@@ -1,13 +1,13 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import FooterThree from "../component/layout/footerthree";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
 import SelectPost from "../component/select/selectpost";
 import SelectProduct from "../component/select/selectproduct";
 import ActiveGroup from "../component/sidebar/group";
 import ActiveMember from "../component/sidebar/member";
 import ModalSearch from "../component/sidebar/modalsearch";
+import HeaderOne from "../component/layout/header";
 
 const title = 'Be young, love life';
 const desc = 'Challenges are whats make lifes interesting and overcoming them is what makes life meaningful.';
@@ -158,7 +158,7 @@ class GroupDetails extends Component {
     render() { 
         return (
             <Fragment >
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Group Single Page'} curPage={'Group Details'} />
                 <div className="group group--single padding-bottom">
                     <div className="group__top">

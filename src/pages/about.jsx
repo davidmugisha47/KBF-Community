@@ -6,13 +6,13 @@ import AboutSectionSix from "../component/section/aboutsix";
 import StorySection from "../component/section/story";
 import WorkSectionTwo from "../component/section/worktwo";
 import AppSectionTwo from "../component/section/appsectiontwo";
-import HeaderTwo from "../component/layout/headertwo";
+import HeaderOne from "../component/layout/header";
 
 class AboutPage extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'About Our Ollya'} curPage={'About Us'} />
                 <AboutSectionSix />
                 <StorySection />

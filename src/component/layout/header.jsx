@@ -16,7 +16,7 @@ class HeaderOne extends Component {
                 <div className="header__bottom">
                     <div className="container">
                         <nav className="navbar navbar-expand-lg">
-                            <Link className="navbar-brand" to="/"><img src="assets/images/logo/logo.png" alt="logo" /></Link>
+                            <Link className="navbar-brand" to="/"><img src="/KBF shadowed (1).png" height= "60px" width= "60px" alt="logo" /></Link>
                             <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -26,12 +26,7 @@ class HeaderOne extends Component {
                                 <div className="navbar-nav mainmenu">
                                     <ul>
                                         <li className="menu-item-has-children">
-                                            <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Home</a>
-                                            <ul className="dropdown-menu">
-                                                <li><NavLink to="/" className={'active'}>Home Page One</NavLink></li>
-                                                <li><NavLink to="/index-2">Home Page Two</NavLink></li>
-                                                <li><NavLink to="/index-3">Home Page Three</NavLink></li>
-                                            </ul>
+                                        <li><NavLink to="/">Home</NavLink></li>
                                         </li>
                                         <li className="menu-item-has-children">
                                             <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Pages</a>
@@ -39,7 +34,6 @@ class HeaderOne extends Component {
                                                 <li><NavLink to="/about">About Us</NavLink></li>
                                                 <li><NavLink to="/membership">Membership</NavLink></li>
                                                 <li><NavLink to="/comingsoon">comingsoon</NavLink></li>
-                                                <li><NavLink to="/404">404</NavLink></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">
@@ -64,8 +58,6 @@ class HeaderOne extends Component {
                                             <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Blogs</a>
                                             <ul className="dropdown-menu">
                                                 <li><NavLink to="/blog">Blog</NavLink></li>
-                                                <li><NavLink to="/blog-2">Blog Style Two</NavLink></li>
-                                                <li><NavLink to="/blog-single">Blog Details</NavLink></li>
                                             </ul>
                                         </li>
                                         <li><NavLink to="/contact">contact</NavLink></li>

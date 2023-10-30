@@ -1,39 +1,39 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 
-const title = "Ollya Success Stories";
-const desc = "Listen and learn from our community members and find out tips and tricks to meet your love. Join us and be part of a bigger family.";
+const title = "Events";
+const desc = "The Kingdom Forum is a truly extraordinary cross-border event that unites and transcends national boundaries, making a profound impact in three diverse and dynamic countries: Zambia, Kenya, and Rwanda.";
 
 let StorySectionContentList = [
     {
-        imgUrl: 'assets/images/story/01.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
+        imgUrl: 'kbfMusanze.jpg',
+        imgAlt: 'kbf',
+        title: 'Kingdom Bussines Forum 2022 Rwanda',
         activity: 'Entertainment',
-        authorImg: 'assets/images/story/author/01.jpg',
-        authorImgAlt: 'Dating Thumb',
-        authorName: 'Rajib Raj',
+        authorImg: 'https://images.pexels.com/photos/1291515/pexels-photo-1291515.jpeg?auto=compress&cs=tinysrgb&w=600',
+        authorImgAlt: 'author',
+        authorName: 'KBF',
         postDate: 'May 15, 2022',
     },
     {
-        imgUrl: 'assets/images/story/02.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
+        imgUrl: 'kbfZambia.jpg',
+        imgAlt: 'kbf',
+        title: 'Kingdom Business Forum 2023 Zambia',
         activity: 'Attraction',
-        authorImg: 'assets/images/story/author/02.jpg',
-        authorImgAlt: 'Dating Thumb',
-        authorName: 'Umme Nishat',
-        postDate: 'May 19, 2022',
+        authorImg: 'https://images.pexels.com/photos/1291515/pexels-photo-1291515.jpeg?auto=compress&cs=tinysrgb&w=600',
+        authorImgAlt: 'author',
+        authorName: 'KBF',
+        postDate: 'May 19, 2023',
     },
     {
-        imgUrl: 'assets/images/story/03.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
+        imgUrl: 'kbfKenya.jpg',
+        imgAlt: 'kbf',
+        title: 'Kingdom Business Forum 2023 Kenya',
         activity: 'Love Stories',
-        authorImg: 'assets/images/story/author/03.jpg',
-        authorImgAlt: 'Dating Thumb',
-        authorName: 'Angel Mili',
-        postDate: 'May 20, 2022',
+        authorImg: 'https://images.pexels.com/photos/1291515/pexels-photo-1291515.jpeg?auto=compress&cs=tinysrgb&w=600',
+        authorImgAlt: 'author',
+        authorName: 'KBF',
+        postDate: 'May 20, 2023',
     },
 ]
 
@@ -55,14 +55,14 @@ class StorySection extends Component {
                                         <div className="story__inner">
                                             <div className="story__thumb">
                                                 <Link to="/blog-single"><img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} /></Link>
-                                                <span className="member__activity member__activity--ofline">{val.activity}</span>
+                                                {/* <span className="member__activity member__activity--ofline">{val.activity}</span> */}
                                             </div>
                                             <div className="story__content">
                                                 <Link to="/blog-single"><h4>{val.title}</h4></Link>
                                                 <div className="story__content--author">
-                                                    <div className="story__content--thumb">
+                                                    {/* <div className="story__content--thumb">
                                                         <img src={`${val.authorImg}`} alt={`${val.authorImgAlt}`} />
-                                                    </div>
+                                                    </div> */}
                                                     <div className="story__content--content">
                                                         <h6>{val.authorName}</h6>
                                                         <p>{val.postDate}</p>

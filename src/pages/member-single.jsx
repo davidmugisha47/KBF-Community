@@ -1,7 +1,6 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import FooterThree from "../component/layout/footerthree";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
 import SelectAge from "../component/select/selectage";
 import SelectCountry from "../component/select/selectcountry";
@@ -10,6 +9,7 @@ import SelectProduct from "../component/select/selectproduct";
 import ActiveGroup from "../component/sidebar/group";
 import ActiveMember from "../component/sidebar/member";
 import ModalSearch from "../component/sidebar/modalsearch";
+import HeaderOne from "../component/layout/header";
 
 const name = "William Smith";
 const activety = "Active 3 Days Ago";
@@ -562,7 +562,7 @@ class MemberDetails extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Member Single Page'} curPage={'Member Single'} />
                 <div className="group group--single padding-bottom">
                     <div className="group__top">

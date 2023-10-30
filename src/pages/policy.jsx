@@ -1,13 +1,13 @@
 import { Component, Fragment } from "react";
 import FooterTwo from "../component/layout/footertwo";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
+import HeaderOne from "../component/layout/header";
 
 class Policy extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Privacy & Policy'} curPage={'Policy'} />
                 <section className="terms-section padding-bottom padding-top">
                     <div className="container">

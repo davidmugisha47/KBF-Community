@@ -1,6 +1,5 @@
 import { Component, Fragment } from "react";
 import Footer from "../component/layout/footer";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
 import Author from "../component/section/author";
 import CommentForm from "../component/section/commentform";
@@ -11,13 +10,14 @@ import Instagram from "../component/sidebar/instagram";
 import RecentPost from "../component/sidebar/recentpost";
 import SearchBar from "../component/sidebar/search";
 import Tags from "../component/sidebar/tags";
+import HeaderOne from "../component/layout/header";
 
 
 class BlogDetails extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Blog Details'} curPage={'Blog Details'} />
                 <div className="blog blog--style2 padding-top padding-bottom aside-bg">
                     <div className="container">

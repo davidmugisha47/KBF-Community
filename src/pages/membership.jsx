@@ -1,8 +1,8 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import FooterThree from "../component/layout/footerthree";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
+import HeaderOne from "../component/layout/header";
 
 const title = "Membership Levels";
 const subtitle = "Our dating platform is like a breath of fresh air. Clean and trendy design with ready to use features we are sure you will love.";
@@ -110,7 +110,7 @@ class MembershipPage extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Membership Levels'} curPage={'Membership'} />
                 <div className="membership padding-top padding-bottom">
                     <div className="container">

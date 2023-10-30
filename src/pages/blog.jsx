@@ -1,8 +1,8 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../component/layout/footer";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
+import HeaderOne from "../component/layout/header";
 
 let BlogContentListOne = [
     {
@@ -100,7 +100,7 @@ class BlogPage extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Our Blog Post'} curPage={'Blog'} />
                 <div className="blog-section padding-top padding-bottom">
                     <div className="container">

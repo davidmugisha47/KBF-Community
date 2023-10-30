@@ -6,8 +6,8 @@ import AboutSectionFour from "../component/section/aboutfour";
 import SelectAge from "../component/select/selectage";
 import SelectCountry from "../component/select/selectcountry";
 import SelectGender from "../component/select/selectgender";
-import HeaderTwo from "../component/layout/headertwo";
 import { Link } from "react-router-dom";
+import HeaderOne from "../component/layout/header";
 
 const pagecount = "Viewing 1 - 20 of 12,345 Members";
 
@@ -454,7 +454,7 @@ class GroupPage extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Ollya All Groups'} curPage={'Groups'} />
                 <AboutSectionFour />
                 <div className="member story story--style2 padding-top padding-bottom overflow-hidden">

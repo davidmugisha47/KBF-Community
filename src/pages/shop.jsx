@@ -2,18 +2,15 @@ import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../component/layout/footer";
 import Header from "../component/layout/header";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
 import Pagination from "../component/section/pagination";
 import Rating from "../component/section/rating";
 import Categorie from "../component/sidebar/categorie";
 import RecentProduct from "../component/sidebar/recent-product";
 import SearchBar from "../component/sidebar/search";
+import HeaderOne from "../component/layout/header";
 
 const showResult = "Showing 01 - 12 of 139 Results";
-
-
-
 
 let ProductList = [
     {
@@ -98,7 +95,7 @@ class ShopPage extends Component {
     render() {
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Shop Page'} curPage={'Shop'} />
                 <div className="shop-page padding-top padding-bottom aside-bg">
                     <div className="container">

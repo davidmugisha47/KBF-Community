@@ -1,7 +1,6 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import FooterThree from "../component/layout/footerthree";
-import HeaderTwo from "../component/layout/headertwo";
 import PageHeader from "../component/layout/pageheader";
 import AboutSectionFour from "../component/section/aboutfour";
 import Pagination from "../component/section/pagination";
@@ -9,6 +8,7 @@ import SelectAge from "../component/select/selectage";
 import SelectCountry from "../component/select/selectcountry";
 import SelectGender from "../component/select/selectgender";
 import SelectProduct from "../component/select/selectproduct";
+import HeaderOne from "../component/layout/header";
 
 
 let MemberContentList = [
@@ -128,7 +128,7 @@ class MembersPage extends Component {
     render() { 
         return (
             <Fragment>
-                <HeaderTwo />
+                <HeaderOne />
                 <PageHeader title={'Ollya All Members'} curPage={'All Members'} />
                 <AboutSectionFour />
                 <div className="member member--style2 padding-top padding-bottom">
