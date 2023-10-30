@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-const title = "Our mission";
+const title = "Our Platform";
 const subtitle = "Providing a platform for you to connect with like-minded businesses and leaders who share a common mission: to collaborate and advance God's kingdom on earth.";
 
 let AboutContentList = [

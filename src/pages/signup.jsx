@@ -2,8 +2,8 @@ import { Component } from "react";
 import { Link } from "react-router-dom";
 import SelectMarid from "../component/select/selectmarid";
 
-const title = "Welcome to Ollya";
-const desc = "Let's create your profile! Just fill in the fields below, and we’ll get a new account.";
+const title = "Welcome to Kingdom Business Forum";
+const desc = "Let's create your profile! Just fill in the fields below, and we’ll get you a new account.";
 const accTitle = "Acount Details";
 
 class SignUp extends Component {
@@ -24,7 +24,7 @@ class SignUp extends Component {
                         <div className="row">
                             <div className="col-lg-8 col-7">
                                 <div className="logo">
-                                    <Link to="/"><img src="assets/images/logo/logo.png" alt="logo" /></Link>
+                                    <Link to="/"><img src="KBF shadowed (1).png" alt="logo" height= "80px" width= "80px"/></Link>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-5">
@@ -35,7 +35,7 @@ class SignUp extends Component {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="image"></div>
+                        <div className="ima"></div>
                         <div className="col-lg-7">
                             <div className="log-reg-inner">
                                 <div className="section-header">
@@ -45,18 +45,6 @@ class SignUp extends Component {
                                 <div className="main-content">
                                     <form action="#">
                                         <h4 className="content-title">{accTitle}</h4>
-                                        <div className="form-group">
-                                            <label>Username*</label>
-                                            <input
-                                                type="text"
-                                                name="name"
-                                                id="item01"
-                                                value={this.state.regName}
-                                                onChange={(e)=>{this.setState({regName: e.target.value});}}
-                                                placeholder="Enter Your Usewrname *"
-                                                className="my-form-control"
-                                            />
-                                        </div>
                                         <div className="form-group">
                                             <label>Email Address*</label>
                                             <input
@@ -99,44 +87,21 @@ class SignUp extends Component {
                                             <input type="text" className="my-form-control" placeholder="Enter Your Full Name" />
                                         </div>
                                         <div className="form-group">
-                                            <label>Birthday*</label>
-                                            <input type="date" className="my-form-control" />
-                                        </div>
-                                        <div className="form-group">
-                                            <label>I am a*</label>
+                                            <label>I am a</label>
                                             <div className="banner__inputlist">
                                                 <div className="s-input me-3">
                                                     <input type="radio" name="gender1" id="males1" />
-                                                    <label htmlFor="males1">Man</label>
+                                                    <label htmlFor="males1">Leader</label>
                                                 </div>
                                                 <div className="s-input">
                                                     <input type="radio" name="gender1" id="females1" />
-                                                    <label htmlFor="females1">Woman</label>
+                                                    <label htmlFor="females1">Business owner</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="form-group">
-                                            <label>Looking for a*</label>
-                                            <div className="banner__inputlist">
-                                                <div className="s-input me-3">
-                                                    <input type="radio" name="gender2" id="males" />
-                                                    <label htmlFor="males">Man</label>
-                                                </div>
-                                                <div className="s-input">
-                                                    <input type="radio" name="gender2" id="females" />
-                                                    <label htmlFor="females">Woman</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="form-group">
-                                            <label>Marial status*</label>
-                                            <div className="banner__inputlist">
-                                                <SelectMarid select={'Marid'} />
-                                            </div>
-                                        </div>
-                                        <div className="form-group">
-                                            <label>City*</label>
-                                            <input type="text" className="my-form-control" placeholder="Enter Your City" />
+                                            <label>Country</label>
+                                            <input type="text" className="my-form-control" placeholder="Enter Your Country name" />
                                         </div>
                                         <button className="default-btn reverse"><span>Create Your Profile</span></button>
                                     </form>
