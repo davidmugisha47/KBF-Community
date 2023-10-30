@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 
 let WorkSectionTwoContentList = [
     {
-        imgUrl: 'assets/images/work/09.png',
-        imgAlt: 'Dating Thumb',
-        title: 'Trust And Safety',
-        desc: 'Choose from one of our membership levels and unlock features you need.',
+        imgUrl: 'binoculars.png',
+        imgAlt: 'logo',
+        title: 'Vision',
+        desc: 'To see the people of all nations, from Africa and beyond, live a life of worship before God in all things united in living God’s dreams, plans, and purposes for mankind and to fulfill our destiny as God’s children to reign and partner with God and steward the earth in a way that blessed all peoples and all nations.',
         btnText: 'See More Details',
         btnLink: '/policy',
     },
     {
-        imgUrl: 'assets/images/work/10.png',
+        imgUrl: 'goal.png',
         imgAlt: 'Dating Thumb',
-        title: 'Simple Membership',
-        desc: 'Choose from one of our membership levels and unlock features you need.',
+        title: 'Mission',
+        desc: 'To create a holistic society encompassed by an environment centered with God’s presence, Heaven’s culture and Christ’s glory that transforms earth, bringing everyone and everything out of darkness into marvelous light.',
         btnText: 'Membership Details',
         btnLink: '/membership',
     },
@@ -37,7 +37,7 @@ class WorkSectionTwo extends Component {
                                             <div className="work__content">
                                                 <h3>{val.title}</h3>
                                                 <p>{val.desc} </p>
-                                                <Link to={val.btnLink} className="default-btn"><span>{val.btnText}</span></Link>
+                                                {/* <Link to={val.btnLink} className="default-btn"><span>{val.btnText}</span></Link> */}
                                             </div>
                                         </div>
                                     </div>
