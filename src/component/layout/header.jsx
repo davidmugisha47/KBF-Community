@@ -40,8 +40,6 @@ class HeaderOne extends Component {
                                                 <li><NavLink to="/community">Community</NavLink></li>
                                                 <li><NavLink to="/group">All Group</NavLink></li>
                                                 <li><NavLink to="/members">All Members</NavLink></li>
-                                                <li><NavLink to="/activity">Activity</NavLink></li>
-
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children">

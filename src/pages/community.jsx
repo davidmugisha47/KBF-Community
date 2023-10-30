@@ -7,98 +7,57 @@ import SelectAge from "../component/select/selectage";
 import SelectCountry from "../component/select/selectcountry";
 import SelectGender from "../component/select/selectgender";
 import HeaderOne from "../component/layout/header";
+import Footer from "../component/layout/footer";
 
 
 let StorySectionContentList = [
     {
-        imgUrl: 'assets/images/story/01.jpg',
+        imgUrl: 'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
+        title: 'Leaders Community',
         activity: 'Entertainment',
         authorImg: 'assets/images/story/author/01.jpg',
         authorImgAlt: 'Dating Thumb',
-        authorName: 'Rajib Raj',
-        postDate: 'May 15, 2022',
     },
     {
-        imgUrl: 'assets/images/story/02.jpg',
+        imgUrl: 'Bishop.JPG',
         imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
+        title: 'Pastors Community',
         activity: 'Attraction',
         authorImg: 'assets/images/story/author/02.jpg',
         authorImgAlt: 'Dating Thumb',
-        authorName: 'Umme Nishat',
-        postDate: 'May 19, 2022',
     },
     {
-        imgUrl: 'assets/images/story/03.jpg',
+        imgUrl: 'Andrew.JPG',
         imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
+        title: 'Government Officials Community',
         activity: 'Love Stories',
         authorImg: 'assets/images/story/author/03.jpg',
         authorImgAlt: 'Dating Thumb',
-        authorName: 'Angel Mili',
-        postDate: 'May 20, 2022',
     },
     {
-        imgUrl: 'assets/images/story/04.jpg',
+        imgUrl: 'https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
+        title: 'Business influencers Community',
         activity: 'Entertainment',
         authorImg: 'assets/images/story/author/01.jpg',
         authorImgAlt: 'Dating Thumb',
-        authorName: 'Rajib Raj',
-        postDate: 'May 15, 2022',
     },
     {
-        imgUrl: 'assets/images/story/05.jpg',
+        imgUrl: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
+        title: 'Young entrepreneurs community',
         activity: 'Attraction',
         authorImg: 'assets/images/story/author/02.jpg',
         authorImgAlt: 'Dating Thumb',
-        authorName: 'Umme Nishat',
-        postDate: 'May 19, 2022',
     },
     {
-        imgUrl: 'assets/images/story/06.jpg',
+        imgUrl: 'https://images.pexels.com/photos/5060973/pexels-photo-5060973.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
+        title: 'Business owners community',
         activity: 'Love Stories',
         authorImg: 'assets/images/story/author/03.jpg',
         authorImgAlt: 'Dating Thumb',
-        authorName: 'Angel Mili',
-        postDate: 'May 20, 2022',
-    },
-    {
-        imgUrl: 'assets/images/story/07.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
-        activity: 'Entertainment',
-        authorImg: 'assets/images/story/author/01.jpg',
-        authorImgAlt: 'Dating Thumb',
-        authorName: 'Rajib Raj',
-        postDate: 'May 15, 2022',
-    },
-    {
-        imgUrl: 'assets/images/story/08.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
-        activity: 'Attraction',
-        authorImg: 'assets/images/story/author/02.jpg',
-        authorImgAlt: 'Dating Thumb',
-        authorName: 'Umme Nishat',
-        postDate: 'May 19, 2022',
-    },
-    {
-        imgUrl: 'assets/images/story/09.jpg',
-        imgAlt: 'Dating Thumb',
-        title: 'Dream places and locations to visit in 2022',
-        activity: 'Love Stories',
-        authorImg: 'assets/images/story/author/03.jpg',
-        authorImgAlt: 'Dating Thumb',
-        authorName: 'Angel Mili',
-        postDate: 'May 20, 2022',
     },
 ]
 
@@ -115,42 +74,18 @@ class CommunityPage extends Component {
                 <div className="community story padding-top padding-bottom">
                     <div className="container">
                         <div className="section__wrapper">
-                            <div className="member__info mb-4">
-                                <div className="member__info--left">
-                                    <div className="member__info--filter">
-                                        <div className="default-btn" onClick={this.modalview}><span>Filter Your Search <i className="fa-solid fa-sliders"></i></span></div>
-                                    </div>
-                                    <div className="member__info--count">
-                                        <div className="default-btn"><span>All Members</span></div>
-                                        <p>20</p>
-                                    </div>
-                                </div>
-                                <div className="member__info--right">
-                                    <div className="member__info--customselect right w-100">
-                                        <div className="default-btn"><span>Order By:</span></div>
-                                        <div className="banner__inputlist">
-                                            <select>
-                                                <option value="0">Last Active </option>
-                                                <option value="1">Oldest</option>
-                                                <option value="2">Popular</option>
-                                                <option value="3">Most Active</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div className="row g-4 justify-content-center mx-12-none row-cols-lg-3 row-cols-sm-2 row-cols-1">
                                 {StorySectionContentList.map((val, i) => (
                                     <div className="col" key={i}>
                                         <div className="story__item">
                                             <div className="story__inner">
                                                 <div className="story__thumb">
-                                                    <Link to="/blog-single"><img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} /></Link>
-                                                    <span className="member__activity member__activity--ofline">{val.activity}</span>
+                                                    <Link to="#"><img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} /></Link>
+                                                    {/* <span className="member__activity member__activity--ofline">{val.activity}</span> */}
                                                 </div>
                                                 <div className="story__content">
-                                                    <Link to="/blog-single"><h4>{val.title}</h4></Link>
-                                                    <div className="story__content--author">
+                                                    <Link to="#"><h4>{val.title}</h4></Link>
+                                                    {/* <div className="story__content--author">
                                                         <div className="story__content--thumb">
                                                             <img src={`${val.authorImg}`} alt={`${val.authorImgAlt}`} />
                                                         </div>
@@ -158,7 +93,7 @@ class CommunityPage extends Component {
                                                             <h6>{val.authorName}</h6>
                                                             <p>{val.postDate}</p>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -166,9 +101,6 @@ class CommunityPage extends Component {
                                 ))}
                             </div>
                             <div className="member__pagination mt-4">
-                                <div className="member__pagination--left">
-                                    <p>Viewing 1 - 20 of 12,345 Members</p>
-                                </div>
                                 <div className="member__pagination--right">
                                     <Pagination />
                                 </div>
@@ -176,62 +108,7 @@ class CommunityPage extends Component {
                         </div>
                     </div>
                 </div>
-
-                <div className="modal fade" id="exampleModal">
-                    <div className="modal-dialog modal-dialog-centered">
-                        <div className="modal-content">
-                            <div className="modal-header">
-                                <h5 className="modal-title" id="exampleModalLabel">Filter your search</h5>
-                                <button type="button" className="btn-close" onClick={this.modalview}></button>
-                            </div>
-                            <div className="modal-body">
-                                <form action="#">
-                                    <div className="banner__list">
-                                        <div className="row align-items-center row-cols-1">
-                                            <div className="col">
-                                                <label>I am a</label>
-                                                <div className="banner__inputlist">
-                                                    <SelectGender select={'male'} />
-                                                </div>
-                                            </div>
-                                            <div className="col">
-                                                <label>Looking for</label>
-                                                <div className="banner__inputlist">
-                                                    <SelectGender select={'female'} />
-                                                </div>
-                                            </div>
-                                            <div className="col">
-                                                <label>Age</label>
-                                                <div className="row g-3">
-                                                    <div className="col-6">
-                                                        <div className="banner__inputlist">
-                                                            <SelectAge select={'18'} />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-6">
-                                                        <div className="banner__inputlist">
-                                                            <SelectAge select={'25'} />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col">
-                                                <label>Country</label>
-                                                <div className="banner__inputlist">
-                                                    <SelectCountry select={'Bangladesh'} />
-                                                </div>
-                                            </div>
-                                            <div className="col">
-                                                <button type="submit" className="default-btn reverse d-block"><span>Find Your Partner</span></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <FooterThree />
+                <Footer />
             </Fragment>
         );
     }
