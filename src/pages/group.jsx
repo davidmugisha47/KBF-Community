@@ -173,10 +173,10 @@ class GroupPage extends Component {
                                         <div className="story__item style2 story--theme-color">
                                             <div className="story__inner">
                                                 <div className="story__thumb position-relative">
-                                                    <Link to="/group-single"><img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} /></Link>
+                                                    <Link to="#"><img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} /></Link>
                                                 </div>
                                                 <div className="story__content px-0 pb-0">
-                                                    <Link to="/group-single"><h4>{val.title}</h4></Link>
+                                                    <Link to="#"><h4>{val.title}</h4></Link>
                                                     <p>{val.desc}</p>
                                                     <div className="story__content--author justify-content-between border-top pt-3">
                                                         <div className="story__content--content">

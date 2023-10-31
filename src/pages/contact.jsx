@@ -3,6 +3,7 @@ import FooterThree from "../component/layout/footerthree";
 import PageHeader from "../component/layout/pageheader";
 import GoogleMap from "../component/section/googlemap";
 import HeaderOne from "../component/layout/header";
+import Footer from "../component/layout/footer";
 
 
 const infotitle = "Contact Info";
@@ -16,19 +17,19 @@ let infoListContent = [
         imgUrl: 'assets/images/contact/icon/01.png',
         imgAlt: 'Contact Info Thumb',
         title: 'Office Address',
-        desc: '1201 park street, Fifth Avenue',
+        desc: 'Musanze City',
     },
     {
         imgUrl: 'assets/images/contact/icon/02.png',
         imgAlt: 'Contact Info Thumb',
         title: 'Phone number',
-        desc: '+22698 745 632, 02 982 745',
+        desc: '+250781235456',
     },
     {
         imgUrl: 'assets/images/contact/icon/03.png',
         imgAlt: 'Contact Info Thumb',
         title: 'Send Email',
-        desc: 'yourmail@gmail.com',
+        desc: 'Kingdombusinessforumafrica@gmail.com',
     },
 ]
 
@@ -160,7 +161,7 @@ class ContactUs extends Component {
                         </div>
                     </div>
                 </div>
-                <FooterThree />
+                <Footer />
             </Fragment>
         );
     }
