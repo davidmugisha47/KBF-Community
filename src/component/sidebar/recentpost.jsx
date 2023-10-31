@@ -6,25 +6,25 @@ const title = "Recent Post";
 
 let RecentPostList = [
     {
-        imgUrl: 'assets/images/blog/p-post/01.jpg',
+        imgUrl: 'https://images.pexels.com/photos/698899/pexels-photo-698899.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'recent post thumb',
         title: 'Poor People’s Campaign Our Resources',
         pubDate: '15 May 2022',
     },
     {
-        imgUrl: 'assets/images/blog/p-post/02.jpg',
+        imgUrl: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'recent post thumb',
         title: 'Boosting Social For NGO And Charities',
         pubDate: '15 May 2022',
     },
     {
-        imgUrl: 'assets/images/blog/p-post/03.jpg',
+        imgUrl: 'https://images.pexels.com/photos/1104007/pexels-photo-1104007.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'recent post thumb',
         title: 'Poor People’s Campaign Our Resources',
         pubDate: '15 May 2022',
     },
     {
-        imgUrl: 'assets/images/blog/p-post/04.jpg',
+        imgUrl: 'https://images.pexels.com/photos/2923156/pexels-photo-2923156.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'recent post thumb',
         title: 'Boosting Social For NGO And Charities',
         pubDate: '15 May 2022',

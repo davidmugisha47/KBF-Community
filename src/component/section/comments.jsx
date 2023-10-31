@@ -6,14 +6,14 @@ let CommentsList = [
     {
         imgUrl: 'assets/images/blog/author/02.jpg',
         imgAlt: 'author thumb',
-        Name: 'Umme Nishat',
+        Name: 'Teta Tonia',
         Date: 'May 15, 2022 at 12:41 pm',
         Massage: 'The inner sanctuary, I throw myself down among the tall grass bye the trckli stream and, as I lie close to the earth',
     },
     {
         imgUrl: 'assets/images/blog/author/03.jpg',
         imgAlt: 'author thumb',
-        Name: 'Rajib Raj',
+        Name: 'Ivan Torrez',
         Date: 'May 15, 2022 at 12:41 pm',
         Massage: 'The inner sanctuary, I throw myself down among the tall grass bye the trckli stream and, as I lie close to the earth',
     },

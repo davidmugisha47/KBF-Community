@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-const Name = "Rajib Ahmed";
+const Name = "David Pallock";
 const desc = "Competently conceptualize alternative synergy and technically and niche markets. Efficiently impact technically sound outsourcing rath tnclicks-and-mortar best practices.";
 
 let AuthorSocialList = [

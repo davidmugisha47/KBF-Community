@@ -1,8 +1,6 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import PageHeader from "../component/layout/pageheader";
-import AboutSectionFour from "../component/section/aboutfour";
-import SelectProduct from "../component/select/selectproduct";
 import HeaderOne from "../component/layout/header";
 import Footer from "../component/layout/footer";
 
@@ -11,70 +9,70 @@ let MemberContentList = [
     {
         imgUrl: 'assets/images/member/home2/01.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Ethan Smith',
         activity: 'CEO of Btechnology',
         className: 'member__activity',
     },
     {
         imgUrl: 'assets/images/member/home2/02.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Ava Johnson',
         activity: 'Entrepreneur',
         className: 'member__activity member__activity--ofline',
     },
     {
         imgUrl: 'assets/images/member/home2/03.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Noah Wilson',
         activity: 'Pastor',
         className: 'member__activity',
     },
     {
         imgUrl: 'assets/images/member/home2/04.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Sophia Brown',
         activity: 'Mayor',
         className: 'member__activity',
     },
     {
         imgUrl: 'assets/images/member/home2/05.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Liam Davis',
         activity: 'Enterpreneur',
         className: 'member__activity member__activity--ofline',
     },
     {
         imgUrl: 'assets/images/member/home2/06.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Isabella Martinez',
         activity: 'Pastor',
         className: 'member__activity',
     },
     {
         imgUrl: 'assets/images/member/home2/07.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Lucas Taylor',
         activity: 'CEO',
         className: 'member__activity',
     },
     {
         imgUrl: 'assets/images/member/home2/08.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Olivia White',
         activity: 'Market researcher',
         className: 'member__activity',
     },
     {
         imgUrl: 'assets/images/member/home2/09.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Aiden Harris',
         activity: 'Governor',
         className: 'member__activity member__activity--ofline',
     },
     {
         imgUrl: 'assets/images/member/home2/10.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Lorem Ipsum',
+        title: 'Emma Thomas',
         activity: 'Pastor',
         className: 'member__activity',
     },

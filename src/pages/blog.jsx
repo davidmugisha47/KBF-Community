@@ -4,94 +4,61 @@ import Footer from "../component/layout/footer";
 import PageHeader from "../component/layout/pageheader";
 import HeaderOne from "../component/layout/header";
 
-let BlogContentListOne = [
-    {
-        imgUrl: 'assets/images/blog/03.jpg',
-        imgAlt: 'Blog Thumb',
-        title: 'Dramatically procrastinate extensive testing procedures.',
-        desc: 'Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one',
-        btnText: 'read more',
-        pubDate: '15 May 2022',
-        pubAuthor: 'Rajib Raj',
-    },
-]
-
-let BlogContentListTwo = [
-    {
-        imgUrl: 'assets/images/blog/01.jpg',
-        imgAlt: 'Blog Thumb',
-        title: 'Compellingly productivate innovative niches rather.',
-        desc: 'Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one',
-        btnText: 'read more',
-        pubDate: '15 May 2022',
-        pubAuthor: 'Rajib Raj',
-    },
-    {
-        imgUrl: 'assets/images/blog/02.jpg',
-        imgAlt: 'Blog Thumb',
-        title: 'Enthusiastically pursue cross functional systems.',
-        desc: 'Uniquely conceptuaze visionary process ariwith tactical ramatica centered qualitys vectoris with outofthebox scenario is ompelling uthoritatively generate front-end niches after one',
-        btnText: 'read more',
-        pubDate: '15 May 2022',
-        pubAuthor: 'Rajib Raj',
-    },
-]
-
 
 let BlogContentListThree = [
     {
-        imgUrl: 'assets/images/blog/04.jpg',
+        imgUrl: 'https://img.freepik.com/free-photo/toy-bricks-table-with-word-faith_144627-47474.jpg?w=2000',
         imgAlt: 'Blog Thumb',
-        title: 'Distinctively synthesize goal-oriente.',
+        title: 'Faith driven entrepreneurship.',
         desc: 'Unique proces ariwith tactica ramatica are centered quatys vectoris with scenario to front-end niches after one',
         btnText: 'read more',
         pubDate: '15 May 2022',
-        pubAuthor: 'Rajib Raj',
+        pubAuthor: 'David Pallock',
     },
     {
-        imgUrl: 'assets/images/blog/05.jpg',
+        imgUrl: 'https://images.pexels.com/photos/284951/pexels-photo-284951.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'Blog Thumb',
-        title: 'Distinct edeine resour for ramatica.',
+        title: 'Businesses into the Kingdom.',
         desc: 'Unique proces ariwith tactica ramatica are centered quatys vectoris with scenario to front-end niches after one',
         btnText: 'read more',
-        pubDate: '15 May 2022',
-        pubAuthor: 'Rajib Raj',
+        pubDate: '1 June 2021',
+        pubAuthor: 'Joel Gasare',
     },
     {
-        imgUrl: 'assets/images/blog/06.jpg',
+        imgUrl: 'https://images.pexels.com/photos/3978594/pexels-photo-3978594.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'Blog Thumb',
-        title: 'Compellingly pontificate low-risk.',
+        title: 'On earth as it is in heaven.',
         desc: 'Unique proces ariwith tactica ramatica are centered quatys vectoris with scenario to front-end niches after one',
         btnText: 'read more',
-        pubDate: '15 May 2022',
-        pubAuthor: 'Rajib Raj',
+        pubDate: '19 September 2022',
+        pubAuthor: 'David Mugisha',
     },
     {
-        imgUrl: 'assets/images/blog/07.jpg',
+        imgUrl: 'https://images.pexels.com/photos/193821/pexels-photo-193821.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'Blog Thumb',
-        title: 'Efficiently recaptiualize impactful.',
+        title: 'Business with Excellence.',
         desc: 'Unique proces ariwith tactica ramatica are centered quatys vectoris with scenario to front-end niches after one',
         btnText: 'read more',
-        pubDate: '15 May 2022',
-        pubAuthor: 'Rajib Raj',
+        pubDate: '10 January 2023',
+        pubAuthor: 'Christian Sunzu',
     },
     {
-        imgUrl: 'assets/images/blog/08.jpg',
+        imgUrl: 'https://images.pexels.com/photos/4386421/pexels-photo-4386421.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'Blog Thumb',
-        title: 'Appropriately donate in extensible.',
+        title: 'Worshiping with our riches.',
         desc: 'Unique proces ariwith tactica ramatica are centered quatys vectoris with scenario to front-end niches after one',
         btnText: 'read more',
-        pubDate: '15 May 2022',
-        pubAuthor: 'Rajib Raj',
+        pubDate: '30 November 2022',
+        pubAuthor: 'Kevin Ishimwe',
     },
     {
-        imgUrl: 'assets/images/blog/09.jpg',
+        imgUrl: 'https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&w=600',
         imgAlt: 'Blog Thumb',
-        title: 'Monotonectally with coordinate flexible.',
+        title: 'Blessed and unstoppable',
         desc: 'Unique proces ariwith tactica ramatica are centered quatys vectoris with scenario to front-end niches after one',
         btnText: 'read more',
         pubDate: '15 May 2022',
-        pubAuthor: 'Rajib Raj',
+        pubAuthor: 'Ange Gardien',
     },
 ]
 
@@ -106,52 +73,6 @@ class BlogPage extends Component {
                     <div className="container">
                         <div className="section-wrapper">
                             <div className="row g-4 justify-content-center">
-                                {BlogContentListOne.map((val, i) => (
-                                    <div className="col-12" key={i}>
-                                        <div className="blog__item">
-                                            <div className="blog__inner d-flex flex-wrap align-items-center">
-                                                <div className="blog__thumb w-xl-50 w-100">
-                                                    <Link to="/blog-single">
-                                                        <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} className="w-100" />
-                                                    </Link>
-                                                </div>
-                                                <div className="blog__content p-4 ps-xl-5 w-xl-50 w-100">
-                                                    <Link to="/blog-single"><h3>{val.title}</h3></Link>
-                                                    <div className="blog__metapost">
-                                                        <a href="#">{val.pubAuthor}</a>
-                                                        <a href="#">{val.pubDate}</a>
-                                                    </div>
-                                                    <p>{val.desc}</p>
-                                                    <Link to="/blog-single" className="default-btn"><span>{val.btnText}</span></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
-
-                                {BlogContentListTwo.map((val, i) => (
-                                    <div className="col-lg-6 col-12" key={i}>
-                                        <div className="blog__item">
-                                            <div className="blog__inner">
-                                                <div className="blog__thumb">
-                                                    <Link to="/blog-single">
-                                                        <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} className="w-100" />
-                                                    </Link>
-                                                </div>
-                                                <div className="blog__content px-3 py-4">
-                                                    <Link to="/blog-single"><h3>{val.title}</h3></Link>
-                                                    <div className="blog__metapost">
-                                                        <a href="#">{val.pubAuthor}</a>
-                                                        <a href="#">{val.pubDate}</a>
-                                                    </div>
-                                                    <p>{val.desc}</p>
-                                                    <Link to="/blog-single" className="default-btn reverse"><span>{val.btnText}</span></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ))}
-
                                 {BlogContentListThree.map((val, i) => (
                                     <div className="col-xl-4 col-md-6 col-12" key={i}>
                                         <div className="blog__item">

@@ -23,10 +23,6 @@ let CategorieList = [
         name: 'News',
         count: '25',
     },
-    {
-        name: 'Photography',
-        count: '18',
-    },
 ]
 
 

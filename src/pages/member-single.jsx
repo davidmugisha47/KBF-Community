@@ -2,14 +2,12 @@ import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import FooterThree from "../component/layout/footerthree";
 import PageHeader from "../component/layout/pageheader";
-import SelectAge from "../component/select/selectage";
-import SelectCountry from "../component/select/selectcountry";
-import SelectGender from "../component/select/selectgender";
 import SelectProduct from "../component/select/selectproduct";
 import ActiveGroup from "../component/sidebar/group";
 import ActiveMember from "../component/sidebar/member";
 import ModalSearch from "../component/sidebar/modalsearch";
 import HeaderOne from "../component/layout/header";
+import Footer from "../component/layout/footer";
 
 const name = "William Smith";
 const activety = "Active 3 Days Ago";
@@ -575,19 +573,10 @@ class MemberDetails extends Component {
                                             <button className="nav-link active" id="gt1-tab" data-bs-toggle="tab" data-bs-target="#gt1" type="button" role="tab" aria-controls="gt1" aria-selected="true"><i className="fa-solid fa-house"></i> Activity</button>
                                         </li>
                                         <li className="nav-item" role="presentation">
-                                            <button className="nav-link" id="gt2-tab" data-bs-toggle="tab" data-bs-target="#gt2" type="button" role="tab" aria-controls="gt2" aria-selected="false"><i className="fa-solid fa-users"></i> Profile <span>30</span></button>
-                                        </li>
-                                        <li className="nav-item" role="presentation">
-                                            <button className="nav-link" id="gt3-tab" data-bs-toggle="tab" data-bs-target="#gt3" type="button" role="tab" aria-controls="gt3" aria-selected="false"><i className="fa-solid fa-video"></i> Sites <span>06</span></button>
-                                        </li>
-                                        <li className="nav-item" role="presentation">
-                                            <button className="nav-link" id="gt4-tab" data-bs-toggle="tab" data-bs-target="#gt4" type="button" role="tab" aria-controls="gt4" aria-selected="false"><i className="fa-solid fa-users"></i> Friends <span>16</span></button>
+                                            <button className="nav-link" id="gt2-tab" data-bs-toggle="tab" data-bs-target="#gt2" type="button" role="tab" aria-controls="gt2" aria-selected="false"><i className="fa-solid fa-users"></i> Bio</button>
                                         </li>
                                         <li className="nav-item" role="presentation">
                                             <button className="nav-link" id="gt5-tab" data-bs-toggle="tab" data-bs-target="#gt5" type="button" role="tab" aria-controls="gt5" aria-selected="false"><i className="fa-solid fa-layer-group"></i> Groups <span>08</span></button>
-                                        </li>
-                                        <li className="nav-item" role="presentation">
-                                            <button className="nav-link" id="gt6-tab" data-bs-toggle="tab" data-bs-target="#gt6" type="button" role="tab" aria-controls="gt6" aria-selected="false"><i className="fa-solid fa-photo-film"></i> Media <span>06</span></button>
                                         </li>
                                     </ul>
                                 </div>
@@ -1505,7 +1494,6 @@ class MemberDetails extends Component {
                                 </div>
                                 <div className="col-xl-3 order-xl-2">
                                     <div className="group__bottom--right">
-                                        <ModalSearch />
                                         <ActiveMember />
                                         <ActiveGroup />
                                     </div>
@@ -1514,7 +1502,7 @@ class MemberDetails extends Component {
                         </div>
                     </div>
                 </div>
-                <FooterThree />
+                <Footer />
             </Fragment>
         );
     }
