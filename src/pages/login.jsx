@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 
-const title = "Welcome to Ollya";
+const title = "Welcome to Kingdom Business Forum!";
 const otherTitle = "Sign up with your email";
 
 class LogIn extends Component {
@@ -20,7 +20,7 @@ class LogIn extends Component {
                         <div className="row">
                             <div className="col-lg-8 col-7">
                                 <div className="logo">
-                                    <Link to="/"><img src="assets/images/logo/logo.png" alt="logo" /></Link>
+                                    <Link to="/"><img src="KBF shadowed (1).png " alt="logo" height= "80px" width= "80px" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-5">
@@ -31,7 +31,7 @@ class LogIn extends Component {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="image image-log"></div>
+                        {/* <div className="image image-log"></div> */}
                         <div className="col-lg-7">
                             <div className="log-reg-inner">
                                 <div className="section-header inloginp">

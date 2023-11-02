@@ -94,12 +94,10 @@ class ActiveMember extends Component {
                                             <div className="left member--style2">
                                                 <div className="member__thumb">
                                                     <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
-                                                    <span className="member__activity"></span>
                                                 </div>
                                             </div>
                                             <div className="right">
                                                 <Link to="/member-single"><h6>{val.title}</h6></Link>
-                                                <span>{val.activety}</span>
                                             </div>
                                         </div>
                                     </li>   
